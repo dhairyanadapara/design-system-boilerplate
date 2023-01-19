@@ -1,11 +1,13 @@
 {
-  "name": "@xe/ui-lib-button",
+  "name": "@xplorare/ui-lib-button",
   "version": "0.0.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Dhairya Nadapara <dhairya@zuru.tech>",
   "license": "ISC",
-  "main": "lib/ui-lib-button.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "private": true,
   "directories": {
     "lib": "lib",
     "test": "__tests__"
