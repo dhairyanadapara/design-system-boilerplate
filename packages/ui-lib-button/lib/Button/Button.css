@@ -1,0 +1,18 @@
+.Button {
+    border-radius: 6px;
+    padding: 10px;
+}
+
+
+.Button-primary {
+    background-color: #0074EB;
+}
+
+.Button-secondary {
+    background-color: #FDFDFD;
+}
+
+.Button-error {
+    background-color: #ff0000;
+}
+
