@@ -9,7 +9,7 @@
   "module": "dist/esm/index.js",
   "private": false,
   "directories": {
-    "lib": "lib",
+    "lib": "lib"
   },
   "files": [
     "dist",
