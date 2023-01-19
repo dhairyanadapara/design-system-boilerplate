@@ -1,3 +1,2 @@
-import { Button } from '@xe/ui-lib-button';
-import { Input } from '@xe/ui-lib-input';
-export { Button, Input };
+export { default as Button } from './Button'
+export { default as Input } from './Input'
