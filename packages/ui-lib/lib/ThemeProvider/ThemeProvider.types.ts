@@ -1,7 +1,6 @@
-import { ThemeProps } from './global';
-
+import { DefaultTheme } from "./global";
 
 export interface ThemeProviderProps {
-    theme: ThemeProps,
+    theme: DefaultTheme,
     children: JSX.Element | JSX.Element[]
 }

@@ -13,7 +13,7 @@ export const StyledButton = styled.button.attrs({ type: 'button' })`
     cursor: pointer;
     border-radius: ${radius[6]};
     outline: none;
-    padding: ${spaces[0]};
+    padding: ${spaces[8]};
     display: inline-flex;
     align-items: center;
     justify-content: center;

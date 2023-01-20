@@ -7,7 +7,7 @@ import { ButtonProps } from './Button.types';
 
 
 const Button = ({ text, type, onClick }: ButtonProps) => (
-    <StyledButton type="button" className={`Button Button-${type}`} onClick={onClick}>
+    <StyledButton type="button" onClick={onClick}>
         {text}
     </StyledButton>
 )

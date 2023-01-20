@@ -1,4 +1,6 @@
-const theme = {
+import { DefaultTheme } from "./global";
+
+const theme: DefaultTheme = {
     spaces: {
         0: '0px',
         2: '2px',
@@ -27,7 +29,6 @@ const theme = {
         text: '#333333',
         // shades of Blue
         primary: '#1E5AE4',
-        gray: '#A0A3AB',
         // Shades of Red
         error: '#D70C1C',
         // Shades of Lime Green
