@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { StyledButton } from './StyledButton';
 
 import './Button.css';
 import { ButtonProps } from './Button.types';
@@ -7,9 +7,9 @@ import { ButtonProps } from './Button.types';
 
 
 const Button = ({ text, type, onClick }: ButtonProps) => (
-    <button type="button" className={`Button Button-${type}`} onClick={onClick}>
+    <StyledButton type="button" className={`Button Button-${type}`} onClick={onClick}>
         {text}
-    </button>
+    </StyledButton>
 )
 
 export default Button;
